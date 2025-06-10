@@ -1,18 +1,19 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class bee1014 {
+public class bee1004_ProdutoSimples {
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
 
-        int X = sc.nextInt();
-        double Y = sc.nextDouble();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
 
-        double consumo = X / Y;
+        int PROD = A * B;
 
-        System.out.printf("%.3f km/l%n", consumo);
+        System.out.println("PROD = " + PROD);
 
         sc.close();
+
     }
 }

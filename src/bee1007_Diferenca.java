@@ -1,19 +1,18 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class bee1004 {
+public class bee1007_Diferenca {
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
 
         int A = sc.nextInt();
         int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
 
-        int PROD = A * B;
+        int DIFERENCA = (A * B - C * D);
 
-        System.out.println("PROD = " + PROD);
-
-        sc.close();
-
+        System.out.println("DIFERENCA = " + DIFERENCA);
     }
 }

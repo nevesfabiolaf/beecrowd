@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class bee1009 {
+public class bee1009_SalarioComBonus {
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);

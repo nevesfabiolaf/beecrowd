@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class bee1017 {
+public class bee1017_GastoDeCombustivel {
     public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
